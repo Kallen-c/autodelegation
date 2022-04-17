@@ -6,7 +6,7 @@ do
 # Logo
 
 
-curl -s https://raw.githubusercontent.com/Kallen-c/utils/main/logo.sh | bash
+curl -s https://raw.githubusercontent.com/Kallen-c/utils/main/logo-kallen.sh | bash
 
 
 
