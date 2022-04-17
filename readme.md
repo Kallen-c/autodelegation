@@ -4,10 +4,10 @@ ___In this guide, we have written how to set up an autodelegator for your valida
 
 We need to do is set the variables correctly
 ```html
-curl -s https://raw.githubusercontent.com/StakeTake/scriptcosmos/main/autodelegator/autodelegator > autodelegator.sh && chmod +x autodelegator.sh && ./autodelegator.sh
+curl -s https://raw.githubusercontent.com/Kallen-c/autodelegation/main/autodelegator > autodelegator.sh && chmod +x autodelegator.sh && ./autodelegator.sh
 ```
 1. The name of the project corresponds to the node startup service file
-__Project example - umeed__
+__Project example - evmos__
 
 2. The name of the wallet that you wrote when installing the node
 3. The password is set according to your password from the created wallet
@@ -15,7 +15,7 @@ __Project example - umeed__
 5. You can find out the DENOM variable when requesting the balance of tokens on your wallet, this will be the name of the coins
 6. The FEES variable is usually set to 0, but depends on the network
 7. CHAIN ​​ID is usually set by the name of the testnet or mainnet
-__Chain id example - umee-1__
+__Chain id example - evmos_9001-1__
 
 **After you have set the variables, go to the launch of the redelegator**
 
